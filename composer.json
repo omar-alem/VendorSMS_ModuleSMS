@@ -1,0 +1,17 @@
+{
+  "name": "vendor-s-m-s/module-s-m-s",
+  "version": "1.0.0",
+  "description": "Magento2 module",
+  "type": "magento2-module",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "VendorSMS\\ModuleSMS\\": ""
+    }
+  }
+}
